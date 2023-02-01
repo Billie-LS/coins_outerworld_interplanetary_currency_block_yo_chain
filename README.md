@@ -1,39 +1,46 @@
-![solidity1](Images/solidity1.png)
+![mars_city](Images/mars_city.png)
 # **Columbia University Engineering, New York FinTech Bootcamp** 
 # **August 2022 Cohort**
-# **Module 20, Challenge - building smart contracts to automate FinTech institutional financial processes and features.**
+# **Module 21, Challenge - building a blockchain based monetary system for use in Mars planetary colony.**
 
 
-Objective - to automate the creation of joint savings accounts. 
+Scenario - Fintech professional, chosen to lead a project to develop a new monetary system of exchange for interplanetary colonization.
 
-Scenario - Fintech startup new hire, tasked with automating creation of joint savings accounts; will accept two addresses, which will possess account control.
+Objective - develop a blockchain technology based monetary system. 
 
 Product - Solidity smart contract that accepts two user addresses. 
-> Addresses will be able to control a joint savings account. 
-> Use ether management functions to implement institutional requirements for provision of features. 
-> Features will consist of the ability to deposit and withdraw funds from the account.
+> cryptocurrency named KaseiCoin. (“Kasei” means “Mars” in Japanese.)
+> fungible token.
+> ERC-20 compliant. 
+> blockchain crowdsale / initial coin offerring (ICO).
 
  
 ![Ether](Images/Ether.png)
 
-### Product 
+### Evaluation Evidence
 
 
 Initial compile & deploy
-![compile&deploy](Execution_Results/compile_deploy.png)
-Depositing one Ether as wei
-![one_as_wei](Execution_Results/one_eth_as_wei.png)
-Depositing ten Ether as wei
-![ten_as_wei](Execution_Results/ten_eth_as_wei.png)
-Depositing five Ether
-![five_ether](Execution_Results/five_ether.png)
-Set Account1 and Account2
-![set_accounts](Execution_Results/set_accounts_one_two.png)
-Withdrawing five ether to Account1
-![five_for_one_A](Execution_Results/five_eth_account_one1.png)
-![five_for_one_B](Execution_Results/five_eth_account_one2.png)
-Withdrawing ten ether to Account2
-![ten_for_two](Execution_Results/ten_eth_account_two.png)
+![compile_deployer1](Execution_Results/compile_deployer1.png)
+Deploy using Ganache address
+![compile_deployer2](Execution_Results/compile_deployer2.png)
+Deploy using Metamask address
+![compile_deployer3](Execution_Results/compile_deployer3.png)
+Deployer successfully compiled and deployed using Ganache and Metamask
+![success_deployer](Execution_Results/success_deployer.png)
+
+Initialize crowdsale
+![crowdsale1](Execution_Results/crowdsale1.png)
+
+Crowdsale
+![crowdsale2](Execution_Results/crowdsale2.png)
+![crowdsale3](Execution_Results/crowdsale3.png)
+![crowdsale4](Execution_Results/crowdsale4.png)
+![crowdsale5](Execution_Results/crowdsale5.png)
+
+
+Added features/parameters
+![added_params](Execution_Results/added_params.png)
 ___
 
 ## **Technologies**
@@ -42,9 +49,11 @@ ___
 
 ### **Dependencies**
 
-This challenge leverages Solidity version 0.5.0 with the following IDE (Integrated Development Environment):
+This challenge leverages Solidity version 0.5.5 with the following IDE (Integrated Development Environment):
 
 * [REMIX_IDE](https://remix-project.org/) - a no-setup tool with a GUI for developing smart contracts.
+* [Ganache](https://trufflesuite.com/ganache/) - a private Ethereum blockchain environment that allows to you emulate the Ethereum blockchain so that you can interact with smart contracts in your own private blockchain.
+* [MetaMask](https://metamask.io/) - a software cryptocurrency wallet used to interact with the Ethereum blockchain; enables access to Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
 
 ___
 
@@ -80,7 +89,7 @@ git version 2.37.2
 In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/Eth_host_and_Save.git
+git clone git@github.com:Billie-LS/coins_outerworld_interplanetary_currency_block_yo_chain.git
 ```
 
 ---
@@ -108,10 +117,10 @@ ___
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/Eth_host_and_Save
+https://github.com/Billie-LS/coins_outerworld_interplanetary_currency_block_yo_chain
 ```
 
-[repository](https://github.com/Billie-LS/Eth_host_and_Save)
+[repository](https://github.com/Billie-LS/coins_outerworld_interplanetary_currency_block_yo_chain)
 
 
 ___
@@ -139,7 +148,6 @@ ___
 
 ### **Additional references and or resources utilized**
 
-[st.success](https://docs.streamlit.io/library/api-reference/status/st.success)
 
 ___
 ## **License**
